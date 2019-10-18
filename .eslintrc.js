@@ -35,6 +35,7 @@ module.exports = {
     "no-console": ["error", { allow: ["tron"] }],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "react/jsx-props-no-spreading": ["off", { allow: ["rest"] }]
+    "react/jsx-props-no-spreading": ["off", { allow: ["rest"] }],
+    "import/prefer-default-export": "off"
   },
 };
