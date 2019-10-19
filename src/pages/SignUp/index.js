@@ -31,7 +31,7 @@ export default function SignUp() {
         <button type="submit">Join</button>
 
         <Link to="/">
-          Already on GoBarber? <strong>Sing in</strong>
+          Already on GoBarber? <strong>Sign in</strong>
         </Link>
       </Form>
     </>
