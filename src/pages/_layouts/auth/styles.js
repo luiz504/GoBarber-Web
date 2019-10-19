@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { darken } from 'polished';
+
 import colors from '~/styles/colors';
 
 export const Wrapper = styled.div`
@@ -34,6 +35,14 @@ export const Cointainer = styled.div`
         color: ${colors.whiteOpacitySeventy};
       }
     }
+
+    span {
+      color: ${colors.errorRed};
+      align-self: flex-start;
+      margin: 0 0 10px;
+      font-weight: bold;
+    }
+
     button {
       margin: 5px 0 0;
       height: 44px;
