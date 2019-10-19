@@ -7,4 +7,5 @@ export default {
   baseWhite: '#FFF',
   whiteOpacitySeventy: 'rgba(255,255,255, 0.7)',
   blue: '#3b9eff',
+  errorRed: '#e93d3d',
 };
