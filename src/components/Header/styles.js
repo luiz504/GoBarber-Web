@@ -35,11 +35,10 @@ export const Content = styled.div`
         color: ${darken(0.03, colors.purple)};
       }
     }
-    aside {
-      background: #56d;
-      display: flex;
-      align-items: center;
-    }
+  }
+  aside {
+    display: flex;
+    align-items: center;
   }
 `;
 
