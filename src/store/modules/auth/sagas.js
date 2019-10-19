@@ -32,4 +32,24 @@ export function* singIn({ payload }) {
   }
 }
 
-export default all([takeLatest('@auth/SIGN_IN_REQUEST', singIn)]);
+export function* singUp({ payload }) {
+  try {
+    const { name, email, password } = payload;
+
+    yield call(api.post, '/users', {
+      name,
+      email,
+      password,
+      provider: true,
+    });
+
+    history.push('/');
+  } catch (err) {
+    toast.error('Failure! review your data');
+    yield put(signFailure());
+  }
+}
+export default all([
+  takeLatest('@auth/SIGN_IN_REQUEST', singIn),
+  takeLatest('@auth/SIGN_UP_REQUEST', singUp),
+]);
