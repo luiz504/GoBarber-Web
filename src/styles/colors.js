@@ -13,4 +13,5 @@ export default {
   blue: '#3b9eff',
   errorRed: '#e93d3d',
   orangeNotif: '#ff892e',
+  logoutPink: '#f64c75',
 };
