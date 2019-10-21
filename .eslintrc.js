@@ -35,10 +35,11 @@ module.exports = {
     "no-console": ["error", { allow: ["tron"] }],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "react/jsx-props-no-spreading": ["error", { allow: ["rest"] }],
+       "react/jsx-props-no-spreading": ["error", { allow: ["rest"] }],
     "import/prefer-default-export": "off",
     "no-param-reassign": "off",
-    "no-underscore-dangle": ["error",{ allow: ["_id"] }]
+    "no-underscore-dangle": ["error",{ allow: ["_id"] }],
+    'camelcase': 'off'
   },
   settings:{
     "import/resolver": {
