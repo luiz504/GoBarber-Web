@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 import colors from '~/styles/colors';
 
 export const Container = styled.div`
@@ -6,6 +7,7 @@ export const Container = styled.div`
   margin: 50px auto;
 
   display: flex;
+  flex: 1;
   flex-direction: column;
 
   header {
